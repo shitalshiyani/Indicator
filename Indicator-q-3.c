@@ -6,8 +6,6 @@ main()
 	int *p;
 	p=&a;
 	
-	
-	
 	printf("Enter Value of N=");
 	scanf("%d",&n);
 	
