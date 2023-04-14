@@ -17,7 +17,7 @@ main()
 	printf("Elements in Array are=");
 	for (i=0;i<n;i++)
 	{
-		printf("%d\n",*p+i);
+		printf("%d\n",*(p+i));
 	}
 	
 }
