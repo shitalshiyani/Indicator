@@ -18,7 +18,7 @@ main()
 	printf("\nElements of Array are=");
 	for (i=0;i<n;i++)
 	{
-		printf("%d",*p+i);
+		printf("%d",*(p+i));
 	}
 	
 	printf("\nReverse Array Elements are=");
@@ -27,6 +27,6 @@ main()
 	rev=&a[n-1];
 	for (i=0;i<n;i++)
 	{
-		printf("%d",*rev--);
+		printf("%d\n",*rev--);
 	}
 }
